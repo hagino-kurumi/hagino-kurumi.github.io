@@ -6,64 +6,136 @@
 </head>
 <body>
 
-	<header>
-		<h1><img src="img/logo.png" alt="hitel logo"></h1>
+	<section>
+		<header>
+			<h1><img src="img/logo.png" alt="hotel logo"></h1>
 
-	<ul>
-		<li><a href="#">お問い合わせ</a></li>
-		<li><a href="#">club TRUSTYにログイン</a></li>
-		<li><a href="#">HOTEL TRUSTY　総合</a></li>
-	</ul>	</header>
+			<ul>
+				<li><a href="#">お問い合わせ</a></li>
+				<li><a href="#">club TRUSTYにログイン</a></li>
+				<li><a href="#">HOTEL TRUSTY　総合</a></li>
+			</ul>
+		</header>
 
-	<ul>
-		<li><a href="＃">English</a></li>
-		<li><a href="＃">中文(簡体)</a></li>
-		<li><a href="＃">中文(繁體)</a></li>
-		<li><a href="＃">한국어</a></li>
-	</ul>
-
-
-	<nav>
-	<ul>
-		<li><a href=""><img src="img/guestroom.png" alt="guestroom"></a></li>
-		<li><a href="#"><img src="img/resutaurant.png" alt="resutaurant"></a></li>
-		<li><a href="#"><img src="img/special.png" alt="special"></a></li>
-		<li><a href="#"><img src="img/access.png" alt="access"></a></li>
-	</ul>
-	</nav>
-
-	<img src="img/MainVisyual.jpg" alt="MainVisyual">
-
-	<ul>
-		<li><a href=""><img src="img/Annivewsary.jpg" alt="Annivewsary"></a></li>
-		<li><a href=""><img src="img/sakura.jpg" alt="sakura"></a></li>
-	</ul>
-
-		<h2><img src="img/news.png" alt="news"></h2>
-			<dl>
-				<dt>2015/02/01</dt>
-				<dd><a href="#">改修工事終了のお知らせ</a></dd>
-				<dt>2015/01/29</dt>
-				<dd><a href="#">ランチタイム　営業再開のご案内</a></dd>
-				<dt>2014/02/21</dt>
-				<dd><a href="#">【4月1日より】無料送迎シャトル便が生まれ変わります</a></dd>
-				<dt>2014/02/11</dt>
-				<dd><a href="#">ホームページからのご予約がお得</a></dd>
-				<dt>2013/12/31</dt>
-				<dd><a href="#">年始シャトルバスのご案内</a></dd>
-			</dl>
+		<div>
+			<ul>
+				<li><a href="＃">English</a></li>
+				<li><a href="＃">中文(簡体)</a></li>
+				<li><a href="＃">中文(繁體)</a></li>
+				<li><a href="＃">한국어</a></li>
+			</ul>
+		</div>
+		<!-- language -->
 
 
-		<h2>
-			<img src="img/resweve.png" alt="resweve">
-		</h2>
+		<nav>
+			<ul>
+				<li><a href="guest-room.html"><img src="img/guestroom.png" alt="guestroom"></a></li>
+				<li><a href="#"><img src="img/resutaurant.png" alt="resutaurant"></a></li>
+				<li><a href="#"><img src="img/special.png" alt="special"></a></li>
+				<li><a href="#"><img src="img/access.png" alt="access"></a></li>
+			</ul>
+		</nav>
 
-		<h2><img src="img/clubTRUSTY.png" alt="clubTRUSTY"></h2>
-			<p>ご利用いただくたびに<br>
-				ポイントを付与。<br>
-				メンバーだけの得点も充実。<br><br>
-				入会金・年会費は無料です。</p>
-			<p><a href="#">詳細はこちら</a></p>
+
+		<div>
+			<img src="img/MainVisyual.jpg" alt="MainVisyual">
+		</div>
+		<!-- main Visual -->
+
+
+		<ul>
+			<li><a href=""><img src="img/Annivewsary.jpg" alt="Annivewsary"></a></li>
+			<li><a href=""><img src="img/sakura.jpg" alt="sakura"></a></li>
+		</ul>
+		<!-- recommend plan -->
+
+
+		<section>
+			<h2><img src="img/news.png" alt="news"></h2>
+				<dl>
+					<dt>2015/02/01</dt>
+					<dd><a href="#">改修工事終了のお知らせ</a></dd>
+					<dt>2015/01/29</dt>
+					<dd><a href="#">ランチタイム　営業再開のご案内</a></dd>
+					<dt>2014/02/21</dt>
+					<dd><a href="#">【4月1日より】無料送迎シャトル便が生まれ変わります</a></dd>
+					<dt>2014/02/11</dt>
+					<dd><a href="#">ホームページからのご予約がお得</a></dd>
+					<dt>2013/12/31</dt>
+					<dd><a href="#">年始シャトルバスのご案内</a></dd>
+				</dl>
+				<!-- news -->
+		</section>
+
+
+		<section>
+			<h2><img src="img/reserve.png" alt="reserve"></h2>
+				<form action="reserve.php">
+					<dl>
+						<dt>ご宿泊</dt>
+						<dd><select name="yearmomth" id="yearmomth">
+								<option value="201504">2015/4</option>
+								<option value="201505">2015/5</option>
+								</select>
+						</dd>
+						<dd><select name="day" id="day">
+								<option value="24">24</option>
+								<option value="25">25</option>
+								</select>
+						</dd>
+
+						<dt>ご宿泊日数</dt>
+						<dd>
+							<select name="night" id="night">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</dd>
+
+						<dt>ご宿泊人数</dt>
+						<dd>
+							<select name="people" id="people">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</dd>
+
+						<dt>客室数</dt>
+						<dd>
+							<select name="room" id="room">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</dd>
+
+						<dt>検索方法</dt>
+						<dd><input type="radio" name="room" value="type" checked="checked">部屋タイプ別</dd>
+						<dd><input type="radio" name="room" value="plan">宿泊プラン別</dd>
+					</dl>
+					<div>
+						<img src="img/reserve-button.png" alt="reserve-button">
+					</div>
+					<p>電話 03-6700-0001</p>
+				</form>
+				<!-- reserve form -->
+		</section>
+
+
+		<section>
+			<h2><img src="img/clubTRUSTY.png" alt="clubTRUSTY"></h2>
+				<p>ご利用いただくたびに<br>
+					ポイントを付与。<br>
+					メンバーだけの得点も充実。<br><br>
+					入会金・年会費は無料です。</p>
+				<p><a href="#">詳細はこちら</a></p>
+				<!-- club TRUSTY -->
+		</section>
+
+	</section>
 
 
 		<footer>
@@ -90,7 +162,8 @@
 		<p>ホテルトラスティ東京ベイサイド　〒135-0063　
 				東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
 
-		<p>Copyright(c) RESORTTRUST All rights reserved.</p>
+		<p><small>Copyright &copy; RESORTTRUST All rights reserved.</small></p>
+
 		</footer>
 
 
