@@ -3,32 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HOTEL TRUSTY BAYSIDE</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
-	<section>
+	<div class="wrapper01">
 		<header>
-			<h1><img src="img/logo.png" alt="hotel logo"></h1>
+			<h1><img src="img/logo.png" alt="HOTEL TOKYO BAYSIDE"></h1>
 
-			<ul>
-				<li><a href="#">お問い合わせ</a></li>
+
+			<ul class="header_nav">
+					<li><a href="#">お問い合わせ</a></li>
 				<li><a href="#">club TRUSTYにログイン</a></li>
 				<li><a href="#">HOTEL TRUSTY　総合</a></li>
 			</ul>
-		</header>
 
-		<div>
-			<ul>
+
+			<ul class="language">
 				<li><a href="＃">English</a></li>
 				<li><a href="＃">中文(簡体)</a></li>
 				<li><a href="＃">中文(繁體)</a></li>
 				<li><a href="＃">한국어</a></li>
 			</ul>
+			<!-- language -->
+
+		</header>
 		</div>
-		<!-- language -->
+		<!-- wrappe01 -->
 
 
-		<nav>
+		<nav class="g-nav">
 			<ul>
 				<li><a href="guest-room.html"><img src="img/guestroom.png" alt="guestroom"></a></li>
 				<li><a href="#"><img src="img/resutaurant.png" alt="resutaurant"></a></li>
@@ -38,104 +43,118 @@
 		</nav>
 
 
+
 		<div>
-			<img src="img/MainVisyual.jpg" alt="MainVisyual">
+			<img src="img/MainVisyual.jpg" alt="大人の贅沢が此処に">
 		</div>
 		<!-- main Visual -->
 
 
-		<ul>
-			<li><a href=""><img src="img/Annivewsary.jpg" alt="Annivewsary"></a></li>
-			<li><a href=""><img src="img/sakura.jpg" alt="sakura"></a></li>
-		</ul>
-		<!-- recommend plan -->
+
+		<div class="wrapper02">
+		<div class="contents">
+			<div class="main-left">
+				<ul class="recommend-plan">
+					<li><a href=""><img src="img/Anniversary.jpg" alt="Anniversary特別な日をより特別に"></a></li>
+					<li><a href=""><img src="img/sakura.jpg" alt="桜ビュッフェフェア"></a></li>
+				</ul>
+				<!-- recommend plan -->
 
 
-		<section>
-			<h2><img src="img/news.png" alt="news"></h2>
-				<dl>
-					<dt>2015/02/01</dt>
-					<dd><a href="#">改修工事終了のお知らせ</a></dd>
-					<dt>2015/01/29</dt>
-					<dd><a href="#">ランチタイム　営業再開のご案内</a></dd>
-					<dt>2014/02/21</dt>
-					<dd><a href="#">【4月1日より】無料送迎シャトル便が生まれ変わります</a></dd>
-					<dt>2014/02/11</dt>
-					<dd><a href="#">ホームページからのご予約がお得</a></dd>
-					<dt>2013/12/31</dt>
-					<dd><a href="#">年始シャトルバスのご案内</a></dd>
-				</dl>
+				<section class="news">
+					<h2><img src="img/news.png" alt="news"></h2>
+						<dl>
+							<dt>2015/02/01</dt>
+							<dd><a href="#">改修工事終了のお知らせ</a></dd>
+							<dt>2015/01/29</dt>
+							<dd><a href="#">ランチタイム　営業再開のご案内</a></dd>
+							<dt>2014/02/21</dt>
+							<dd><a href="#">【4月1日より】無料送迎シャトル便が生まれ変わります</a></dd>
+							<dt>2014/02/11</dt>
+							<dd><a href="#">ホームページからのご予約がお得</a></dd>
+							<dt>2013/12/31</dt>
+							<dd><a href="#">年始シャトルバスのご案内</a></dd>
+						</dl>
+				</section>
 				<!-- news -->
-		</section>
+			</div>
+			<!-- main-left -->
 
 
-		<section>
-			<h2><img src="img/reserve.png" alt="reserve"></h2>
-				<form action="reserve.php">
-					<dl>
-						<dt>ご宿泊</dt>
-						<dd><select name="yearmomth" id="yearmomth">
-								<option value="201504">2015/4</option>
-								<option value="201505">2015/5</option>
-								</select>
-						</dd>
-						<dd><select name="day" id="day">
-								<option value="24">24</option>
-								<option value="25">25</option>
-								</select>
-						</dd>
+			<div class="main-right">
+				<section class="reserved">
+					<h2><img src="img/reserve.png" alt="reserve"></h2>
+						<form action="reserve.php">
+							<dl>
+								<dt>ご宿泊</dt>
+								<dd><select name="yearmomth" id="yearmomth">
+										<option value="201504">2015/4</option>
+										<option value="201505">2015/5</option>
+										</select>
+								</dd>
+								<dd><select name="day" id="day">
+										<option value="24">24</option>
+										<option value="25">25</option>
+										</select>
+								</dd>
 
-						<dt>ご宿泊日数</dt>
-						<dd>
-							<select name="night" id="night">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-							</select>
-						</dd>
+								<dt>ご宿泊日数</dt>
+								<dd>
+									<select name="night" id="night">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</dd>
 
-						<dt>ご宿泊人数</dt>
-						<dd>
-							<select name="people" id="people">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-							</select>
-						</dd>
+								<dt>ご宿泊人数</dt>
+								<dd>
+									<select name="people" id="people">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</dd>
 
-						<dt>客室数</dt>
-						<dd>
-							<select name="room" id="room">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-							</select>
-						</dd>
+								<dt>客室数</dt>
+								<dd>
+									<select name="room" id="room">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</dd>
 
-						<dt>検索方法</dt>
-						<dd><input type="radio" name="room" value="type" checked="checked">部屋タイプ別</dd>
-						<dd><input type="radio" name="room" value="plan">宿泊プラン別</dd>
-					</dl>
-					<div>
-						<img src="img/reserve-button.png" alt="reserve-button">
-					</div>
-					<p>電話 03-6700-0001</p>
-				</form>
+								<dt>検索方法</dt>
+								<dd><input type="radio" name="room" value="type" checked="checked">部屋タイプ別</dd>
+								<dd><input type="radio" name="room" value="plan">宿泊プラン別</dd>
+							</dl>
+							<div class="reserved_button">
+								<img src="img/reserve-button.png" alt="reserve-button">
+							</div>
+							<p>電話 03-6700-0001</p>
+						</form>
+				</section>
 				<!-- reserve form -->
-		</section>
 
 
-		<section>
-			<h2><img src="img/clubTRUSTY.png" alt="clubTRUSTY"></h2>
-				<p>ご利用いただくたびに<br>
-					ポイントを付与。<br>
-					メンバーだけの得点も充実。<br><br>
-					入会金・年会費は無料です。</p>
-				<p><a href="#">詳細はこちら</a></p>
+				<section class="clubTRUSTY">
+					<h2><img src="img/clubTRUSTY.png" alt="clubTRUSTY"></h2>
+						<p>ご利用いただくたびに<br>
+							ポイントを付与。<br>
+							メンバーだけの得点も充実。<br><br>
+							入会金・年会費は無料です。</p>
+						<p><a href="#">詳細はこちら</a></p>
+				</section>
 				<!-- club TRUSTY -->
-		</section>
+			</div>
+			<!-- main-right -->
 
-	</section>
+		</div>
+		<!-- contents -->
+
+		</div>
+		<!-- wrappe02 -->
 
 
 		<footer>
@@ -165,6 +184,8 @@
 		<p><small>Copyright &copy; RESORTTRUST All rights reserved.</small></p>
 
 		</footer>
+
+
 
 
 

@@ -1,0 +1,183 @@
+body{
+	width: 100%;
+	background-color: #f5f2f0;
+	font-size: 12px;
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: #666;
+}
+
+a:link,a:visited{
+	color: #822323;
+	text-decoration: underline;
+}
+
+.wrapper01{
+	width: 960px;
+	margin: 35px auto 0;
+	position:relative;
+}
+
+.wrapper02{
+	width: 890px;
+	margin: 35px auto 0;
+}
+
+header{
+	margin-bottom: 20px;
+	overflow: hidden;
+	position:relative;
+	height: 115px;
+}
+
+header h1{
+	position:absolute;
+	right:360px;
+	top: 0px;
+}
+
+.header_nav{
+	float: left;
+	width: 230px;
+	overflow: hidden;
+}
+
+.header_nav li{
+	float: left
+	width: 140px;
+}
+
+.language{
+	float: right;
+	width: 300px;
+	overflow: hidden;
+}
+
+.language li{
+	float: left;
+	width: 75px;
+	text-align: center;
+}
+
+nav.g-nav{
+	background-color: #822323;
+	width:100％;
+	height: 66px;
+	text-align: center;
+	}
+
+nav ul{
+	width: 896px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav ul li:first-child{
+	width: 230px;
+}
+
+nav ul li{
+	float:left;
+	width: 222px;
+}
+
+.contents{
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+.main-left{
+	float:left;
+	width: 590px;
+}
+
+.main-right{
+	float:right;
+	width: 280px;
+	margin-left: 20px;
+}
+
+
+.recommend-plan{
+	margin-bottom: 10px;
+}
+
+.recommend-plan li{
+	margin-bottom: 20px;
+}
+
+.news{
+	line-height: 2;
+}
+
+.news h2{
+	margin-bottom: 20px;
+}
+
+.news dl{
+	margin-left: 45px;
+	overflow: hidden;
+}
+
+.news dl dt{
+	float:left;
+	width: 85px;
+	font-size: 12px;
+	font-family: helvetica,arial,sans-serif;
+}
+
+.news dl dd{
+	float:right;
+	width: 430px;
+	margin-left: 30px;
+	font-size: 12px;
+	font-family: helvetica,arial,sans-serif;
+}
+
+.reserved{
+	margin-bottom: 30px;
+}
+
+.reserved h2{
+	margin-bottom: 20px;
+}
+
+.reserved_button{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.reserved p{
+	text-align: center;
+	font-size: 16px;
+}
+
+.clubTRUSTY{
+	text-align: center;
+}
+
+.clubTRUSTY h2{
+	margin-bottom: 20px;
+}
+
+
+
+
+footer{
+	color: #fff;
+	background-color: #822323;
+	width: 100%;
+	text-align: center;
+}
+
+footer ul li a:link,footer ul li a:visited,
+footer dl dd a:link,footer dl dd a:visited{
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer p{
+	background-color: #5e1919;
+	width: 100%;
+	height: 60px;
+}
