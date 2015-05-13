@@ -8,16 +8,19 @@
 </head>
 <body>
 
-	<div class="wrapper01">
+	<div class="wrapper_head">
 		<header>
 			<h1><img src="img/logo.png" alt="HOTEL TOKYO BAYSIDE"></h1>
 
 
-			<ul class="header_nav">
-					<li><a href="#">お問い合わせ</a></li>
-				<li><a href="#">club TRUSTYにログイン</a></li>
-				<li><a href="#">HOTEL TRUSTY　総合</a></li>
-			</ul>
+			<div class="left-header_nav">
+				<ul class="header_nav">
+						<li class="contact"><a href="#">お問い合わせ</a></li>
+						<li class="login"><a href="#">club TRUSTYにログイン</a></li>
+				</ul>
+				<p><a href="#">HOTEL TRUSTY　総合</a></p>
+			</div>
+
 
 
 			<ul class="language">
@@ -30,7 +33,7 @@
 
 		</header>
 		</div>
-		<!-- wrappe01 -->
+		<!-- wrappe_head -->
 
 
 		<nav class="g-nav">
@@ -44,14 +47,14 @@
 
 
 
-		<div>
-			<img src="img/MainVisyual.jpg" alt="大人の贅沢が此処に">
+		<div class="main-visual">
+			<img src="img/catchcopy.png" alt="大人の贅沢が此処に">
 		</div>
 		<!-- main Visual -->
 
 
 
-		<div class="wrapper02">
+		<div class="wrapper_contents">
 		<div class="contents">
 			<div class="main-left">
 				<ul class="recommend-plan">
@@ -63,6 +66,7 @@
 
 				<section class="news">
 					<h2><img src="img/news.png" alt="news"></h2>
+					<div class="news_inner">
 						<dl>
 							<dt>2015/02/01</dt>
 							<dd><a href="#">改修工事終了のお知らせ</a></dd>
@@ -75,6 +79,7 @@
 							<dt>2013/12/31</dt>
 							<dd><a href="#">年始シャトルバスのご案内</a></dd>
 						</dl>
+					</div>
 				</section>
 				<!-- news -->
 			</div>
@@ -87,16 +92,20 @@
 						<form action="reserve.php">
 							<dl>
 								<dt>ご宿泊</dt>
-								<dd><select name="yearmomth" id="yearmomth">
-										<option value="201504">2015/4</option>
-										<option value="201505">2015/5</option>
-										</select>
-								</dd>
+								<div class="reserved_ym">
+									<dd><select name="yearmomth" id="yearmomth">
+											<option value="201504">2015/4</option>
+											<option value="z201505">2015/5</option>
+											</select>
+									</dd>
+								</div>
 								<dd><select name="day" id="day">
 										<option value="24">24</option>
 										<option value="25">25</option>
 										</select>
 								</dd>
+
+
 
 								<dt>ご宿泊日数</dt>
 								<dd>
@@ -132,7 +141,8 @@
 							<div class="reserved_button">
 								<img src="img/reserve-button.png" alt="reserve-button">
 							</div>
-							<p>電話 03-6700-0001</p>
+							<p class="tel">電話</p>
+							<p class="tel-number">03-6700-0001</p>
 						</form>
 				</section>
 				<!-- reserve form -->
@@ -144,7 +154,7 @@
 							ポイントを付与。<br>
 							メンバーだけの得点も充実。<br><br>
 							入会金・年会費は無料です。</p>
-						<p><a href="#">詳細はこちら</a></p>
+						<p class="contents_link"><a href="#">詳細はこちら</a></p>
 				</section>
 				<!-- club TRUSTY -->
 			</div>
@@ -154,34 +164,47 @@
 		<!-- contents -->
 
 		</div>
-		<!-- wrappe02 -->
+		<!-- wrapper_contents -->
 
 
 		<footer>
-			<ul>
-				<li><a href="#">サイトマップ</a></li>
-				<li><a href="#">よくあるご質問</a></li>
-				<li><a href="#">会社概要</a></li>
-				<li><a href="#">ご利用規約</a></li>
-				<li><a href="#">サイトマップ</a></li>
-				<li><a href="#">プライバシーポリシー</a></li>
-				<li><a href="#">サイトポリシー</a></li>
-			</ul>
+			<div class="foot-red-nav">
+				<div class="foot_wrapper_nav">
+					<ul>
+						<li><a href="#">サイトマップ</a></li>
+						<li><a href="#">よくあるご質問</a></li>
+						<li><a href="#">会社概要</a></li>
+						<li><a href="#">ご利用規約</a></li>
+						<li><a href="#">サイトマップ</a></li>
+						<li><a href="#">プライバシーポリシー</a></li>
+						<li><a href="#">サイトポリシー</a></li>
+					</ul>
+				</div>
+			</div>
 
-			<dl>
-				<dt>HOTEL TRUSTY</dt>
-					<dd><a href="#">金沢香林坊</a></dd>
-					<dd><a href="#">神戸 旧居留地</a></dd>
-					<dd><a href="#">トラスティ心斎橋</a></dd>
-					<dd><a href="#">トラスティ名古屋 栄</a></dd>
-					<dd><a href="#">大阪 阿倍野</a></dd>
-					<dd><a href="#">トラスティ名古屋</a></dd>
-			</dl>
+			<div class="foot-red_hotel">
+				<div class="foot_wrapper_hotel">
+					<dl>
+						<dt>HOTEL TRUSTY</dt>
+							<dd><a href="#">金沢香林坊</a></dd>
+							<dd><a href="#">神戸 旧居留地</a></dd>
+							<dd><a href="#">トラスティ心斎橋</a></dd>
+							<dd><a href="#">トラスティ名古屋 栄</a></dd>
+							<dd><a href="#">大阪 阿倍野</a></dd>
+							<dd><a href="#">トラスティ名古屋</a></dd>
+					</dl>
+				</div>
+			</div>
 
-		<p>ホテルトラスティ東京ベイサイド　〒135-0063　
+
+		<div class="foot-winered">
+			<div class="foot_wrapper_adress">
+				<p>ホテルトラスティ東京ベイサイド　〒135-0063 <br>
 				東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
 
-		<p><small>Copyright &copy; RESORTTRUST All rights reserved.</small></p>
+				<p><small><br>Copyright &copy; RESORTTRUST All rights reserved.</small></p>
+			</div>
+		</div>
 
 		</footer>
 
