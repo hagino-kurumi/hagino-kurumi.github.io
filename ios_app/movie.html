@@ -11,15 +11,22 @@
 	margin: 0 auto;
 }
 
-.movie video{
+.movie{
 	width: 320px; /*ここに動画の横幅をいれる*/
 	margin: 0 auto;
 }
+
+video{
+	width: 320px; /*ここに動画の横幅をいれる*/
+	margin: 0 auto;
+}
+
+
 </style>
 </head>
 <body>
 <div class="movie">
-	<video autoplay loop="loop">
+	<video autoplay loop="loop" controls>
 		<source src="movie.mp4" type="video/mp4">
 	</video>
 </div>
